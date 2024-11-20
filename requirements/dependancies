@@ -1,0 +1,56 @@
+1. Core dependencies:
+
+
+```shellscript
+npm install next@latest react@latest react-dom@latest
+```
+
+2. Tailwind CSS (for styling):
+
+
+```shellscript
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+```
+
+3. shadcn/ui components (which use Radix UI and Tailwind CSS):
+
+
+```shellscript
+npm install @radix-ui/react-avatar @radix-ui/react-slot @radix-ui/react-tabs
+npm install class-variance-authority clsx tailwind-merge
+```
+
+4. Lucide React (for icons):
+
+
+```shellscript
+npm install lucide-react
+```
+
+5. Additional UI components we've used:
+
+
+```shellscript
+npm install @radix-ui/react-progress @radix-ui/react-checkbox
+```
+
+6. For form handling (if needed):
+
+
+```shellscript
+npm install react-hook-form
+```
+
+7. For animations (if needed):
+
+
+```shellscript
+npm install framer-motion
+```
+
+8. For date handling (if needed):
+
+
+```shellscript
+npm install date-fns
+``` 
